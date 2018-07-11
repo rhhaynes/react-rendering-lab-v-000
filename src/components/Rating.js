@@ -12,7 +12,7 @@ class Rating extends React.Component {
   }
 
   componentWillReceiveProps(nextProps){
-    nextProps.rating === this.props.rating ? code : code
+    nextProps.rating === this.props.rating ? code : code;
   }
 
   render() {
